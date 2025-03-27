@@ -20,11 +20,11 @@ def is_enabled(value, default):
 # Bot Information
 API_ID = int(environ.get("API_ID", "20571368"))
 API_HASH = environ.get("API_HASH", "c874d957737d24e17159005874a2d5bf")
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7506170080:AAGRnuTDWL3AnnTCEP2NDSJeY64ltDHNe9U")
 
 PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1049652979').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "ARA_VERSE_BOT") # without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "Test_filrstoreBot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
